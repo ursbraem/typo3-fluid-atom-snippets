@@ -1,6 +1,6 @@
 {
   "name": "fluid-typo3-snippets",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Some frequently used TYPO3 fluid viewhelpers",
   "repository": {
     "type": "git",
