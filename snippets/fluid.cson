@@ -1,0 +1,173 @@
+'.text.html':
+  'Fluid layout':
+    'prefix': 'layout'
+    'body': '<f:layout name="$1" />'
+  'Fluid cObject':
+    'prefix': 'cobject'
+    'body': '<f:cObject typoscriptObjectPath="$1" data="$2" />'
+  'Fluid base':
+    'prefix': 'base'
+    'body': '<f:base />'
+  'Fluid Debug':
+    'prefix': 'debug'
+    'body': '<f:debug>$1</f:debug>'
+  'Fluid section':
+    'prefix': 'section'
+    'body': '<f:section name="$1"></f:section>'
+  'Fluid render partial':
+    'prefix': 'partial'
+    'body': '<f:render partial="$1"/>'
+  'Fluid format':
+    'prefix': 'format'
+    'body': '<f:format.$1>$2</f:format.$1>'
+  'Fluid image':
+    'prefix': 'image'
+    'body': '<f:image src="$1" />'
+  'Fluid Link':
+    'prefix': 'link'
+    'body': '<f:link.$1>$2</f:link.$1>'
+  'Fluid link page':
+    'prefix': 'page'
+    'body': '<f:link.page pageUid="$1"></f:link.page>'
+  'Fluid translate':
+    'prefix': 'translate'
+    'body': '<f:translate key="$1"></f:translate>'
+  'Fluid Link Action':
+    'prefix': 'action'
+    'body': '<f:link.action action="$1" controller="" arguments=""></f:link.action>'
+  'Fluid external link':
+    'prefix': 'external'
+    'body': '<f:link.external uri="$1" target="_blank">$2</f:link.external>'
+  'Fluid uri':
+    'prefix': 'uri'
+    'body': '<f:uri.$1></f:uri.$1>'
+  'Fluid uri action':
+    'prefix': 'uri action'
+    'body': '<f:uri.action action="$1" controller="$2" arguments="$3" />'
+  'Fluid uri email':
+    'prefix': 'uri email'
+    'body': '<f:uri.email email="$1" />'
+  'Fluid uri page':
+    'prefix': 'uri page'
+    'body': '<f:uri.page pageUid="$1" />'
+  'Fluid flash message':
+    'prefix': 'flash message'
+    'body': '<f:flashMessages renderMode="$1" />'
+  'Fluid checkbox':
+    'prefix': 'checkbox'
+    'body': '<f:form.checkbox name="$1" value="$2" />'
+  'Fluid radio':
+    'prefix': 'radio'
+    'body': '<f:form.radio name="$1" value="$2" />'
+  'Fluid hidden':
+    'prefix': 'hidden'
+    'body': '<f:form.hidden name="$1" value="$2" />'
+  'Fluid password':
+    'prefix': 'password'
+    'body': '<f:form.password name="$1" />'
+  'Fluid select':
+    'prefix': 'select'
+    'body': '<f:form.select name="$1" options="$2" />'
+  'Fluid submit':
+    'prefix': 'submit'
+    'body': '<f:form.submit name="$1" value="$2" />'
+  'Fluid submit':
+    'prefix': 'submit'
+    'body': '<f:form.textarea cols="$1" rows="$2" name="$3" value="$4" />'
+  'Fluid textfield':
+    'prefix': 'textfield'
+    'body': '<f:form.textfield name="$1" value="$2" />'
+  'Fluid upload':
+    'prefix': 'upload'
+    'body': '<f:form.upload name="$1" />'
+  'Fluid crop':
+    'prefix': 'crop'
+    'body': '<f:format.crop maxCharacters="$1" append="$2">$3</f:format.crop>'
+  'Fluid currency':
+    'prefix': 'currency'
+    'body': '<f:format.currency currencySign="$1" decimalSeparator="$2" thousandsSeparator="$3">$4</f:format.currency>'
+  'Fluid date':
+    'prefix': 'date'
+    'body': '<f:format.date format="$1">$2</f:format.date>'
+  'Fluid htmlentitiesDecode':
+    'prefix': 'entitiesDecode'
+    'body': '<f:format.htmlentitiesDecode></f:format.htmlentitiesDecode>'
+  'Fluid raw':
+    'prefix': 'raw'
+    'body': '<f:format.raw>$1</f:format.raw>'
+  'Fluid number':
+    'prefix': 'number'
+    'body': '<f:format.number decimals="$1" decimalSeparator="$2" thousandsSeparator="$3">$4</f:format.number>'
+  'Fluid padding':
+    'prefix': 'padding'
+    'body': '<f:format.padding padLength="$1" padString="$2">$3</f:format.padding>'
+  'Fluid printf':
+    'prefix': 'printf'
+    'body': '<f:format.printf arguments="$1">$2</f:format.printf>'
+  'Fluid nl2br':
+    'prefix': 'nl2br'
+    'body': '<f:format.nl2br>$1</f:format.nl2br>'
+
+
+  'Fluid foreach':
+    'prefix': 'foreach'
+    'body': """
+      <f:for each="$1" as="" iteration="i">
+
+      </f:for>
+    """
+  'Fluid cycle':
+    'prefix': 'cycle'
+    'body': """
+      <f:cycle values="$1" as="cycle">
+        {cycle}
+      </f:cycle>
+    """
+  'Fluid if else':
+    'prefix': 'if'
+    'body': """
+      <f:if condition="$1">
+        <f:then>
+          $2
+        </f:then>
+        <f:else>
+          $3
+        </f:else>
+      </f:if>
+    """
+  'Fluid switch':
+    'prefix': 'switch'
+    'body': """
+      <f:switch expression="$1">
+        <f:case value="$2">$3</f:case>
+        <f:case value="$4">$5</f:case>
+      </f:switch>
+    """
+  'Fluid alias':
+    'prefix': 'alias'
+    'body': """
+      <f:alias map="$1">
+         $2
+      </f:alias>
+    """
+  'Fluid comment':
+    'prefix': 'comment'
+    'body': """
+      <f:comment>
+         $1
+      </f:comment>
+    """
+  'Fluid form':
+    'prefix': 'form'
+    'body': """
+      <f:form action="$1" name="$2" object="$3">
+        <f:form.textfield property="$4" />
+      </f:form>
+    """
+  'Fluid errors':
+    'prefix': 'error'
+    'body': """
+      <f:form.errors>
+        {error.code}: {error.message}
+      </f:form.errors>
+    """
