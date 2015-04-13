@@ -13,6 +13,9 @@
   ],
   "author": "Philip Majewski",
   "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
   "bugs": {
     "url": "https://github.com/pille72/typo3-fluid-atom-snippets/issues"
   },
