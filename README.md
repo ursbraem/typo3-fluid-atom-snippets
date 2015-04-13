@@ -23,9 +23,4 @@ Blocks: e.g. `switch`
 There you can use tabs to cycle through the cursor positions
 
 ## Install
-If you don't have any previous snippets you can do the following:
-
-- `$ cd /Users/USER/.atom`
-- `$ git clone https://github.com/pille72/typo3-fluid-atom-snippets .`
-
-If you want to keep your own snippets, you can pase the contents of `snippets.cson` into your existing `.atom/snippets.cson`
+Go to Atom > Preferences... then search for fluid typo3 in Packages tab.
