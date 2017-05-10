@@ -139,6 +139,7 @@
       <f:switch expression="$1">
         <f:case value="$2">$3</f:case>
         <f:case value="$4">$5</f:case>
+        <f:case default="true"></f:case>
       </f:switch>
     """
   'Fluid alias':
