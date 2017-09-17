@@ -4,7 +4,7 @@
   "description": "Some frequently used TYPO3 fluid viewhelpers",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pille72/typo3-fluid-atom-snippets.git"
+    "url": "https://github.com/ursbraem/typo3-fluid-atom-snippets.git"
   },
   "keywords": [
     "fluid",
@@ -17,7 +17,7 @@
     "atom": ">0.50.0"
   },
   "bugs": {
-    "url": "https://github.com/pille72/typo3-fluid-atom-snippets/issues"
+    "url": "https://github.com/ursbraem/typo3-fluid-atom-snippets/issues"
   },
-  "homepage": "https://github.com/pille72/typo3-fluid-atom-snippets"
+  "homepage": "https://github.com/ursbraem/typo3-fluid-atom-snippets"
 }
