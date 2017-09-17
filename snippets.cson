@@ -171,3 +171,10 @@
         {error.code}: {error.message}
       </f:form.errors>
     """
+  'Fluid with BE login only':
+    'prefix': 'authenticated'
+    'body': """
+      <f:be.security.ifAuthenticated>
+        $1
+      </f:be.security.ifAuthenticated>
+    """
