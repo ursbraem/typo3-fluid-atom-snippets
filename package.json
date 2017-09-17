@@ -1,6 +1,6 @@
 {
   "name": "typo3-fluid-atom-snippets",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Some frequently used TYPO3 fluid viewhelpers",
   "repository": {
     "type": "git",
@@ -13,7 +13,10 @@
   ],
   "author": "Philip Majewski",
   "maintainers": [
-    { "name": "Urs Bräm", "email": "ub@sturmundbraem.ch" }
+    {
+      "name": "Urs Bräm",
+      "email": "ub@sturmundbraem.ch"
+    }
   ],
   "license": "MIT",
   "engines": {
