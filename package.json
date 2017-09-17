@@ -12,6 +12,7 @@
     "snippets"
   ],
   "author": "Philip Majewski",
+  "maintainers": "Urs Bräm",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
