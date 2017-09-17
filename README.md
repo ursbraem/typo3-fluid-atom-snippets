@@ -24,3 +24,6 @@ There you can use tabs to cycle through the cursor positions
 
 ## Install
 Go to Atom > Preferences... then search for fluid typo3 in Packages tab.
+
+## Credits
+Original author: https://github.com/pille72
