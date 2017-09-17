@@ -16,7 +16,7 @@
     'body': '<f:section name="$1">\n\t$2\n</f:section>'
   'Fluid render partial':
     'prefix': 'partial'
-    'body': '<f:render partial="$1"/>'
+    'body': '<f:render partial="$1" arguments="{_all}"/>'
   'Fluid format':
     'prefix': 'format'
     'body': '<f:format.$1>$2</f:format.$1>'
