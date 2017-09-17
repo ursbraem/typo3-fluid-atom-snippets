@@ -12,7 +12,9 @@
     "snippets"
   ],
   "author": "Philip Majewski",
-  "maintainers": "Urs Bräm",
+  "maintainers": [
+    { "name": "Urs Bräm", "email": "ub@sturmundbraem.ch" }
+  ],
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
