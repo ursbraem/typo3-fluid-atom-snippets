@@ -1,6 +1,6 @@
 {
   "name": "typo3-fluid-atom-snippets",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "Some frequently used TYPO3 fluid viewhelpers",
   "repository": {
     "type": "git",
