@@ -50,6 +50,9 @@
   'Fluid uri page':
     'prefix': 'uri page'
     'body': '<f:uri.page pageUid="$1" />'
+  'Fluid uri page':
+      'prefix': 'uri image'
+      'body': '<f:uri.image image="$1" width="$2" height="$3" cropVariant="$4" />'
   'Fluid flash message':
     'prefix': 'flash message'
     'body': '<f:flashMessages  />'
@@ -107,6 +110,9 @@
   'Fluid nl2br':
     'prefix': 'nl2br'
     'body': '<f:format.nl2br>$1</f:format.nl2br>'
+  'Fluid variable':
+    'prefix': 'variable'
+    'body': '<f:variable name="$1" value="$2" />'
   'Fluid foreach':
     'prefix': 'foreach'
     'body': """
