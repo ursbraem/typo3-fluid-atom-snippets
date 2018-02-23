@@ -146,7 +146,7 @@
   'Fluid alias':
     'prefix': 'alias'
     'body': """
-      <f:alias map="$1">
+      <f:alias map="{$1: $2}">
          $2
       </f:alias>
     """
