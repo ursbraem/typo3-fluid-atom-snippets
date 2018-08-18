@@ -6,7 +6,7 @@ The viewhelpers documentation can be found at the [TYPO3 wiki](http://wiki.typo3
 
 ## Maintenance
 
-🚧🚧🚧I've also switched to vscode & this isn't maintained anymore... 🚧🚧🚧
+🚧🚧🚧 I've also switched to vscode & this isn't maintained anymore... 🚧🚧🚧
 
 ## Usage
 
