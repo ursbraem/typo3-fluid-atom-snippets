@@ -4,6 +4,10 @@ This is a collection of common TYPO3 fluid viewhelpers snippets for [Atom](https
 
 The viewhelpers documentation can be found at the [TYPO3 wiki](http://wiki.typo3.org/Fluid "TYPO3 wiki")
 
+## Maintenance
+
+🚧🚧🚧I've also switched to vscode & this isn't maintained anymore... 🚧🚧🚧
+
 ## Usage
 
 You can use these snippets in all `.html` files. Just type the name of the viewhelper e.g. `image` and use atoms autocomplete
