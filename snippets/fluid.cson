@@ -50,7 +50,7 @@
   'Fluid uri page':
     'prefix': 'uri page'
     'body': '<f:uri.page pageUid="$1" />'
-  'Fluid uri page':
+  'Fluid uri image':
       'prefix': 'uri image'
       'body': '<f:uri.image image="$1" width="$2" height="$3" cropVariant="$4" />'
   'Fluid flash message':
@@ -74,7 +74,7 @@
   'Fluid submit':
     'prefix': 'submit'
     'body': '<f:form.submit ${1:name="$2"} ${3:value="$4"} />'
-  'Fluid submit':
+  'Fluid textarea':
     'prefix': 'textarea'
     'body': '<f:form.textarea ${1:cols="$2"} ${3:rows="$4"} ${5:name="$6"} ${7:value="$8"} />'
   'Fluid textfield':
