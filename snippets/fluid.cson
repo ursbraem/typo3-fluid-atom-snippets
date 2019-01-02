@@ -50,7 +50,7 @@
   'Fluid uri page':
     'prefix': 'uri page'
     'body': '<f:uri.page pageUid="$1" />'
-  'Fluid uri page':
+  'Fluid uri image':
       'prefix': 'uri image'
       'body': '<f:uri.image image="$1" width="$2" height="$3" cropVariant="$4" />'
   'Fluid flash message':
