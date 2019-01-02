@@ -74,7 +74,7 @@
   'Fluid submit':
     'prefix': 'submit'
     'body': '<f:form.submit ${1:name="$2"} ${3:value="$4"} />'
-  'Fluid submit':
+  'Fluid textarea':
     'prefix': 'textarea'
     'body': '<f:form.textarea ${1:cols="$2"} ${3:rows="$4"} ${5:name="$6"} ${7:value="$8"} />'
   'Fluid textfield':
